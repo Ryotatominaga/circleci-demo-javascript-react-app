@@ -8,7 +8,7 @@ jobs: # ジョブの定義
       - checkout # リポジトリのソースコードをチェックアウト
       - run: # コマンド実行①
           name: echo hello world # ステップ名（CircleCIの画面に表示される）
-          command: echo "hello Japan" # 「hello world」を出力
+          command: echo "hello World" # 「hello world」を出力
       - run: # コマンド実行②
           name: Install dependencies # ステップ名（CircleCIの画面に表示される）
           command: npm install  # npm install コマンドで依存関係をインストール
